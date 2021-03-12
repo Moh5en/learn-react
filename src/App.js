@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Showname from './Showname.js'
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Hello World!</h1>
-      </div>
+      <Showname name="َMohsen" color="red"/>
+      
     );
   }
 }
